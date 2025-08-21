@@ -14,6 +14,7 @@ elif entrada == "C" and destino == "F":
     print("Su temperatura de grados Celcius a Fahrenheit, es: ", resultado)
 elif entrada == "K" and destino == "C":
     resultado = temp - 273.15
+    print("Su temperatura de grados Kelvin a Celcius, es: ", resultado)
 elif entrada == "K" and destino == "F":
     resultado = ((temp - 273.15)*1.8) +32
     print("Su temperatura de grados kelvin a Fahrenheit, es: ", resultado)
